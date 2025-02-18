@@ -1,0 +1,78 @@
+/* style.css */
+header {
+  width: 100%; /* Make the header span the entire width of the page */
+  height: 100vh; /* Set the header height to 100% of the viewport height */
+  background-color: #00315e; /* A dark blue background color for the header */
+  color: #fff; /* White text color for contrast */
+  display: flex; /* Use Flexbox for easy alignment */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add some padding around the edges */
+  box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #FF4500;
+
+  text-shadow: 2px 2px 8px rgba(235, 26, 26, 0.2);
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem; /* Slightly larger font for the description */
+  margin-top: 10px; /* Add space between title and description */
+}
+
+nav a {
+  color: #fff; /* White links for contrast */
+  font-size: 1.2rem; /* Slightly larger font for navigation links */
+  margin: 10px 15px; /* Space out the links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+  color: #FF4500; /* Orange color on hover for links */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #00315e;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin: 0;
+    color: #00315e;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: #00315e;
+    color: white;
+    margin-top: 20px;
+  }
+  
