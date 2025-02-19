@@ -13,6 +13,8 @@ header {
   box-sizing: border-box; /* Include padding in the total width/height */
 }
 
+
+
 h1 {
   font-size: 4rem;
   font-weight: bold;
@@ -23,7 +25,7 @@ h1 {
 }
 
 p {
-  font-size: 1.5rem; /* Slightly larger font for the description */
+  font-size: medium; /* Slightly larger font for the description */
   margin-top: 10px; /* Add space between title and description */
 }
 
@@ -75,4 +77,54 @@ body {
     color: white;
     margin-top: 20px;
   }
-  
+ /* 
+  #academic-projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}*/
+#academic-projects h2 {
+  text-align: center; /* Ensures both semester headings are centered */
+}
+.semester {
+    width: 45%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h4 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.project ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+.project p {
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .semester {
+        width: 100%;
+    }
+}
+
+
+
+
